@@ -1,0 +1,18 @@
+# cloud-init snippet for a Ubuntu VM. Replace <GIT_REPO_URL> with your repository clone URL.
+# Example usage: provide this as user-data when creating the VM.
+
+#cloud-config
+packages:
+  - build-essential
+  - git
+  - ca-certificates
+  - libffi-dev
+  - python3-venv
+  - python3-pip
+
+runcmd:
+  - [ sh, -c, 'cd /home/ubuntu && git clone <GIT_REPO_URL> ev-battery-rul' ]
+  - [ sh, -c, 'cd /home/ubuntu/ev-battery-rul && python3 -m venv .venv' ]
+  - [ sh, -c, 'cd /home/ubuntu/ev-battery-rul && . .venv/bin/activate && pip install --upgrade pip && pip install -r requirements.txt' ]
+  - [ sh, -c, 'cd /home/ubuntu/ev-battery-rul && . .venv/bin/activate && python src/models/explainability.py' ]
+  - [ sh, -c, 'echo "Done. Results in /home/ubuntu/ev-battery-rul/results"' ]

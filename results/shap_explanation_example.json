@@ -1,0 +1,28 @@
+{
+  "battery_id": "B0006",
+  "cycle_number": 168,
+  "predicted_soh": 69.60762023925781,
+  "actual_soh": 58.254475229690506,
+  "top_feature_contributions": {
+    "cum_capacity_fade": -10.096065521240234,
+    "energy_wh": -2.665735960006714,
+    "discharge_duration_s": -1.4499568939208984,
+    "rolling_capacity_mean_5": -0.9196207523345947,
+    "current_mean": -0.32160666584968567,
+    "voltage_end": -0.17702284455299377,
+    "voltage_mean": -0.06558992713689804,
+    "cycle_number": -0.057760752737522125,
+    "capacity_degradation_rate": 0.026282522827386856,
+    "temperature_min": 0.012760389596223831,
+    "temperature_max": -0.008917650207877159,
+    "temperature_mean": 0.005341691896319389,
+    "current_min": 0.004548467695713043,
+    "voltage_min": 0.004547173157334328,
+    "rolling_capacity_std_5": -0.004447485785931349,
+    "voltage_std": -0.002800727030262351,
+    "current_max": 0.0019505033269524574,
+    "voltage_max": -0.0013356300769373775,
+    "voltage_range": 0.0012034634128212929,
+    "voltage_start": -0.0009905182523652911
+  }
+}

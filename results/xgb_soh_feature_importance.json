@@ -1,0 +1,22 @@
+{
+  "voltage_start": 5.3756239140057005e-06,
+  "voltage_end": 0.0003212935116607696,
+  "voltage_mean": 0.00031275759101845324,
+  "voltage_min": 8.068132956395857e-06,
+  "voltage_max": 8.663845619594213e-06,
+  "voltage_std": 7.962954441609327e-06,
+  "voltage_range": 9.22157778404653e-06,
+  "current_mean": 0.0016174796037375927,
+  "current_min": 1.541940036986489e-05,
+  "current_max": 6.961149665585253e-06,
+  "temperature_mean": 6.520322585856775e-06,
+  "temperature_max": 1.0584778465272393e-05,
+  "temperature_min": 8.216478818212636e-06,
+  "discharge_duration_s": 0.4741470217704773,
+  "energy_wh": 0.04866444692015648,
+  "cycle_number": 9.592183778295293e-05,
+  "rolling_capacity_mean_5": 0.12948568165302277,
+  "rolling_capacity_std_5": 1.3907027096138336e-05,
+  "capacity_degradation_rate": 1.5003994121798314e-05,
+  "cum_capacity_fade": 0.34523946046829224
+}
